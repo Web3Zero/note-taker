@@ -12,6 +12,8 @@ app.use(express.static("public"));
 const apiRoutes = require("./routes/apiRoutes");
 app.use(apiRoutes);
 
+const htmlRoutes = require("./routes/htmlRoutes");
+app.use(htmlRoutes);
 
 // server listener
 app.listen(PORT, () => {
