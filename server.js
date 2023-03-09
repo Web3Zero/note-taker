@@ -17,5 +17,5 @@ app.use(htmlRoutes);
 
 // server listener
 app.listen(PORT, () => {
-    console.log(`Starting server on http://localhost:${PORT}`);
+  console.log(`Starting server on http://localhost:${PORT}`);
 });
